@@ -6,7 +6,7 @@ const Landing = () => {
         <section className='landing'>
             <div className='dark-overlay'>
                 <div className='landing-inner'>
-                    <h1 className='x-large'><i className='fas fa-book' /> Novella</h1>
+                    <h1 className='x-large'><i className='fas fa-book-open' /> Novella</h1>
                     <p className='lead'>
                         Discuss & Share with Readers Around the World
           </p>
