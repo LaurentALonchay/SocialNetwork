@@ -1,6 +1,6 @@
-/* Global Styles */
+/* /////////////////////////////////////////////////// GLOBAL STYLES ////////////////////////////////////////////////////////////// */
 :root {
-  --primary-color: #17a2b8;
+  --primary-color: #471c08;
   --dark-color: #343a40;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
@@ -34,7 +34,8 @@ img {
   width: 100%;
 }
 
-/* Utilities */
+/* /////////////////////////////////////////////////// UTILITIES ////////////////////////////////////////////////////////////// */
+
 .container {
   max-width: 1100px;
   margin: auto;
@@ -44,7 +45,7 @@ img {
   margin-bottom: 3rem;
 }
 
-/* Text Styles*/
+/* /////////////////////////////////////////////////// TEXT STYLES ////////////////////////////////////////////////////////////// */
 .x-large {
   font-size: 4rem;
   line-height: 1.2;
@@ -74,7 +75,7 @@ img {
   color: var(--dark-color);
 }
 
-/* Padding */
+/* /////////////////////////////////////////////////// PADDING ////////////////////////////////////////////////////////////// */
 .p {
   padding: 0.5rem;
 }
@@ -107,7 +108,7 @@ img {
   padding: 3rem 0;
 }
 
-/* Margin */
+/* /////////////////////////////////////////////////// MARGIN ////////////////////////////////////////////////////////////// */
 .m {
   margin: 0.5rem;
 }
@@ -340,9 +341,9 @@ button {
   margin: 0 0.25rem;
 }
 
-.navbar a:hover {
+/* .navbar a:hover {
   color: var(--primary-color);
-}
+} */
 
 .navbar .welcome span {
   margin-right: 0.6rem;
@@ -351,7 +352,7 @@ button {
 /* Landing Page */
 .landing {
   position: relative;
-  background: url('./img/showcase.jpg') no-repeat center center/cover;
+  background: url('./img/showcase.jpeg') no-repeat center center/cover;
   height: 100vh;
 }
 
