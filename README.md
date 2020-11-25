@@ -69,7 +69,6 @@
 
 ### Section 7: Redux Setup & Alerts
 
-- The Gist Of Redux
 - Creating a Redux Store
 - Alert Reducer, Action & Types
 - Alert Component & Action Call
@@ -121,7 +120,3 @@
 - Prepare For Deployment
 - Deploy To Heroku
 
-### Section 13: Issues, Added Features, etc
-
-- About This Section
-- Not Found Page & Theme Workaround

@@ -1,8 +1,8 @@
-/* /////////////////////////////////////////////////// GLOBAL STYLES ////////////////////////////////////////////////////////////// */
+/* Global Styles */
 :root {
-  --primary-color: #471c08;
+  --primary-color: #343a40;
   --dark-color: #343a40;
-  --light-color: #f4f4f4;
+  --light-color: #f4f4f49d;
   --danger-color: #dc3545;
   --success-color: #28a745;
 }
@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Geneva', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   background-color: #fff;
@@ -34,8 +34,7 @@ img {
   width: 100%;
 }
 
-/* /////////////////////////////////////////////////// UTILITIES ////////////////////////////////////////////////////////////// */
-
+/* Utilities */
 .container {
   max-width: 1100px;
   margin: auto;
@@ -45,7 +44,7 @@ img {
   margin-bottom: 3rem;
 }
 
-/* /////////////////////////////////////////////////// TEXT STYLES ////////////////////////////////////////////////////////////// */
+/* Text Styles*/
 .x-large {
   font-size: 4rem;
   line-height: 1.2;
@@ -75,7 +74,7 @@ img {
   color: var(--dark-color);
 }
 
-/* /////////////////////////////////////////////////// PADDING ////////////////////////////////////////////////////////////// */
+/* Padding */
 .p {
   padding: 0.5rem;
 }
@@ -108,7 +107,7 @@ img {
   padding: 3rem 0;
 }
 
-/* /////////////////////////////////////////////////// MARGIN ////////////////////////////////////////////////////////////// */
+/* Margin */
 .m {
   margin: 0.5rem;
 }
@@ -341,9 +340,9 @@ button {
   margin: 0 0.25rem;
 }
 
-/* .navbar a:hover {
-  color: var(--primary-color);
-} */
+.navbar a:hover {
+  color: var(--light-color);
+}
 
 .navbar .welcome span {
   margin-right: 0.6rem;
@@ -352,7 +351,7 @@ button {
 /* Landing Page */
 .landing {
   position: relative;
-  background: url('./img/showcase.jpeg') no-repeat center center/cover;
+  background: url('./img/showcase.jpg') no-repeat center center/cover;
   height: 100vh;
 }
 
