@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import Spinner from '../layout/Spinner';
+import DashboardActions from './DashboardActions';
 import { getCurrentProfile } from '../../actions/profile';
 
 const Dashboard = ({
@@ -13,7 +14,6 @@ const Dashboard = ({
     useEffect(() => {
         getCurrentProfile();
     }, []);
-
     return loading && profile === null ? (
         <Spinner />
     ) : (
@@ -23,7 +23,9 @@ const Dashboard = ({
                     <i className='fas fa-user' /> Welcome {user && user.name}
                 </p>
                 {profile !== null ? (
-                    <Fragment>has</Fragment>
+                    <Fragment>
+                        <DashboardActions />
+                    </Fragment>
                 ) : (
                         <Fragment>
                             <p>You have not yet setup a profile, please add some info</p>
@@ -35,7 +37,6 @@ const Dashboard = ({
             </Fragment>
         );
 };
-
 Dashboard.propTypes = {
     getCurrentProfile: PropTypes.func.isRequired,
     auth: PropTypes.object.isRequired,
