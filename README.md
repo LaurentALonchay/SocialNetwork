@@ -1,4 +1,4 @@
-# Social Network (npProject)
+# Social Network For Developers - DevCom
 
 ## TECHNOLOGIES USED
 
